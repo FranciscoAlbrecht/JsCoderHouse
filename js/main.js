@@ -118,8 +118,10 @@ function agregarPreducto() {
 };
 
 let opcion;
+
 do {
-    opcion = prompt("Ingrese una opción:/n/n1. Para ver todos los productos./n2. Para ver los productos en oferta./n3. Para ver los productos sin stock./n4 Para agregar un nuevo producto./n/n Pulse 0 para salir.");
+
+    opcion = prompt("Ingrese una opción:\n\n1. Para ver todos los productos.\n2. Para ver los productos en oferta.\n3. Para ver los productos sin stock.\n4 Para agregar un nuevo producto.\n\n Pulse 0 para salir.");
 
     switch (opcion) {
         case "0":
